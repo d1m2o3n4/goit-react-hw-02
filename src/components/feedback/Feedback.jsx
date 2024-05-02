@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./Feefback.module.css";
 const Feedback = ({ feedback, totalFeedback, positiveFeedback }) => {
   const { good, neutral, bad } = feedback;
