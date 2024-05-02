@@ -1,8 +1,7 @@
 import React from "react";
 import s from "./Feefback.module.css";
-const Feedback = ({ feedback, totalFeedback }) => {
+const Feedback = ({ feedback, totalFeedback, positiveFeedback }) => {
   const { good, neutral, bad } = feedback;
-  const positiveFeedback = Math.round((good / totalFeedback) * 100);
   return (
     <>
       <div className={s.feedBackList}>
